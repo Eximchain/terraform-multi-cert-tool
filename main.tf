@@ -8,7 +8,7 @@ module "cert_tool" {
   organization_name       = "Eximchain Pte. Ltd."
   ca_common_name          = "Eximchain OpenVPN Private CA"
   common_name             = "Eximchain OpenVPN Private Certificate"
-  domain_prefixes         = ["vpn-us-east-1", "vpn-us-west-2"]
+  domain_prefixes         = ["vpn-us-east", "vpn-us-west", "vpn-singapore"]
   sub_domain              = "eximchain.com"
   ip_addresses            = []
   validity_period_hours   = 8760
